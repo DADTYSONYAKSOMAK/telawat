@@ -1,0 +1,26 @@
+{
+	"name": "telawat",
+	"description": "A TeleGramBot to send messages secretly!",
+	"logo": "https://telegra.ph/file/3fe890cc2a2e3a93079d7.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/modymesourceze/telawat",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
